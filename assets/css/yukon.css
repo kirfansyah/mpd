@@ -1,0 +1,83 @@
+.shuffle--container {
+  position: relative;
+  overflow: hidden;
+}
+.contact_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  zoom: 1;
+  overflow: hidden;
+}
+.contact_list:before,
+.contact_list:after {
+  content: "";
+  display: table;
+}
+.contact_list:after {
+  clear: both;
+}
+.contact_list li {
+  width: 25%;
+  float: left;
+  display: block;
+  padding: 5px;
+}
+@media only screen and (max-width: 1199px) {
+  .contact_list li {
+    width: 33.333333%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .contact_list li {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact_list li {
+    width: 100%;
+  }
+}
+.contact_list li > a {
+  display: block;
+  border: 1px dashed #eee;
+  padding: 10px;
+}
+.contact_list li > a > img {
+  float: left;
+  margin-right: 10px;
+}
+.contact_list li > a small {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.contact_list li > a:hover {
+  background: #3bafda;
+  color: #ffffff;
+  border: 1px solid #3bafda;
+}
+.contact_list li > a:hover small,
+.contact_list li > a:hover .contact_content span {
+  color: #ffffff;
+}
+.contact_list li h2 {
+  font: 400 16px / 20px "Open Sans", Arial, sans-serif;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.contact_list li .contact_content {
+  overflow: hidden;
+  display: block;
+}
+.contact_list li .contact_content span {
+  display: block;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 6px;
+}

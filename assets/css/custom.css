@@ -1,0 +1,269 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Mei 15, 9:43:18
+    Author     : ITD5
+*/
+
+.judul{
+	background-color:#307ecc;
+	color:#FFF;
+	font-size:14px;
+	line-height:38px;
+	padding-left:12px;
+	margin-bottom:1px
+}
+.judul .close{
+	margin-right:6px;
+	margin-top:6px
+}
+
+th.right, td.right{
+	text-align: right;
+}
+
+th.middle, td.middle{
+	vertical-align: middle;	/* vertical alignment */
+}
+
+.user-info{	
+	max-width: 150px;	/* di ace.css max width hanya 100px */
+}
+
+.about-box .toolbar{
+	background:#c16050;
+	border-top:2px solid #976559;
+	padding:9px 18px
+}
+.programmer-box .toolbar{
+	background:#76b774;
+	border-top:2px solid #759759;
+	padding:9px 18px
+}
+.about-box .back-to-login-link,.programmer-box .back-to-login-link{
+	color:#FE9;
+	font-size:14px;
+	font-weight:bold;
+	text-shadow:1px 0 1px rgba(0,0,0,0.25)
+}
+.user-programmer-link{
+	color:#CF7
+}
+.about-program-link{
+	color:#FE9
+}
+/*.trx-user-info clone dari .profile-user-info*/
+.trx-user-info{
+	margin:3px 0
+}
+.trx-info-row{
+	position:relative
+}
+
+.trx-info-name{
+	position:absolute;
+	width:150px;
+	text-align:right;
+	padding:6px 10px 6px 0;
+	left:0;
+	top:0;
+	bottom:0;
+	font-weight:normal;
+	color:#667e99;
+	background-color:transparent;
+	border-top:1px dotted #d5e4f1
+}
+
+.trx-info-value{
+	padding:6px 4px 6px 6px;
+	margin-left:160px;
+	color:#DD5A43;
+	border-top:1px dotted #d5e4f1		
+}
+
+.trx-info-value>span+span:before{
+	display:inline;
+	content:",";
+	margin-left:1px;
+	margin-right:3px;
+	color:#666;	
+	border-bottom:1px solid #FFF
+}
+
+.trx-info-value>span+span.editable-container:before{
+	display:none
+}
+
+.trx-info-row:first-child .trx-info-name{
+	border-top:0
+}
+
+.trx-info-row:first-child .trx-info-value{
+	border-top:0
+}
+
+.trx-user-info-striped{
+	border:1px solid #307ecc
+}
+
+.trx-user-info-striped .trx-info-name{
+	color:#336199;
+	background-color: #D6DFEB;
+	/*background-color:#edf3f4;*/
+	border-top:1px solid #f7fbff
+}
+
+.trx-user-info-striped .trx-info-value{
+	border-top:1px dotted #dcebf7;
+	padding-left:12px
+}
+
+/*member list*/
+.itemdiv.memberdiv {	
+	min-width: 350px;
+	margin: 3px;
+	border: 1px solid rgb(232, 232, 232);
+}
+.itemdiv > .user {
+	margin-top: 12px;
+}
+.itemdiv > .body {
+	font-size: large;
+	margin-top: 3px;
+}
+.itemdiv > .body-inline {
+	display: inline-block;
+	min-width: 180px;
+}
+.itemdiv > .body-inline1 {
+	display: inline-block;
+	min-width: 180px;
+	margin-left: 10px;
+}
+.itemdiv > .body > .time{
+	font-size: 15px;
+}
+.itemdiv > .body > .absen{
+	font-size: 15px;
+	
+}
+.itemdiv.memberdiv > .body > .name > a {
+	max-width: 100%;
+}
+
+.itemdiv.memberdiv.max {
+	width: 99%;
+}
+
+@media (min-width: 300px) and (max-width: 745px){
+	.itemdiv.memberdiv{
+		width:99%;
+	}
+}
+.itemdiv .tools {
+	display: inherit;
+	width: 30px;
+	bottom: 6px;
+}
+
+.modal-body {
+	max-height: 600px;
+}
+
+.item-list>li {
+	padding: 3px 6px;
+}
+
+.absensi .nmrmesin {
+	float: left;
+	width: 30px;
+	margin-top: 8px;
+}
+
+.absensi .tkfield {
+	margin-left: 30px;
+}
+.absensi .tkfield > .body > .name{
+	font-size: large;
+}
+.absensi .tkfield > .body > .time {
+	font-weight: bold;
+	font-size: 15px;
+}
+.absensi .tools{
+	position: inherit;
+	float: right;
+	right: 4px;
+	
+}
+
+.tabbable .nav-fixed{
+	position: fixed;
+	top: 46px;
+	/*top: 0;*/
+}
+.tab-content-fixed{
+	margin-left: 85px;
+}
+
+#footer {
+	position: fixed;
+	right: 30px;
+	bottom: 0;
+	height: 25px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.w100 {
+	width: 100px;
+}
+.w110 {
+	width: 110px;
+}
+.w120 {
+	width: 120px;
+}
+.w130 {
+	width: 130px;
+}
+.w140 {
+	width: 140px;
+}
+.w150 {
+	width: 150px;
+}
+.w160 {
+	width: 160px;
+}
+.w170 {
+	width: 170px;
+}
+.w180 {
+	width: 180px;
+}
+.w190 {
+	width: 190px;
+}
+.w200 {
+	width: 200px;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+	.combonama.w190{
+		width: 150px;
+	}
+}
+
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover,.nav-tabs>.active>a:focus
+{
+	color:#333 !important;
+	cursor:default;
+	background-color:#baffbc !important;
+	border:1px solid #ddd;
+	border-bottom-color:transparent
+}

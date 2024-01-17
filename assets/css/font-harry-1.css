@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "harry";
+  src:url("../font/harry/harry.eot");
+  src:url("../font/harry/harry.eot?#iefix") format("embedded-opentype"),
+    url("../font/harry/harry.woff") format("woff"),
+    url("../font/harry/harry.ttf") format("truetype"),
+    url("../font/harry/harry.svg#harry") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "harry" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-h-"]:before,
+[class*=" icon-h-"]:before {
+  font-family: "harry" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-h-chart-area:before {
+  content: "a";
+}
+.icon-h-globe:before {
+  content: "b";
+}
+.icon-h-signal:before {
+  content: "c";
+}
+.icon-h-user-add:before {
+  content: "d";
+}
+.icon-h-user:before {
+  content: "e";
+}
+.icon-h-users:before {
+  content: "f";
+}
+.icon-h-bars:before {
+  content: "g";
+}
+.icon-h-graph:before {
+  content: "h";
+}
+.icon-h-settings:before {
+  content: "i";
+}
+.icon-h-home:before {
+  content: "j";
+}
+.icon-h-graph-1:before {
+  content: "k";
+}
+.icon-h-palm-tree:before {
+  content: "l";
+}
+.icon-h-content-34:before {
+  content: "m";
+}
+.icon-h-cannabis-hemp:before {
+  content: "n";
+}
+.icon-h-check-5:before {
+  content: "o";
+}
+.icon-h-check-1:before {
+  content: "p";
+}
